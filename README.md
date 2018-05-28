@@ -8,6 +8,13 @@ Authors:
 
 Dr. Vilalta introduced a complexity metric for domain adaptation tasks. By measuring class entropy for *k*-NN we determine the adaptive sampling technique on the target dataset which we append to the source dataset. Thus, training on a newly formed dataset.
 
+#### Installation
+
+Assuming you have all the basic ML libraries installed, to run the scripts your need active learning library.
+
+` pip3 install libact `
+
+
 #### Usage
 
 Convert your `.csv` dataset file using the `libsvm` script to support libsvm sparse data. 
