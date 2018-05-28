@@ -12,10 +12,10 @@ Dr. Vilalta introduced a complexity metric for domain adaptation tasks. By measu
 
 Convert your `.csv` dataset file using the `libsvm` script to support libsvm sparse data. 
 
-` python3 libsvm/libsvm.py data/mnist_full.csv data/mnist_full.txt `
+` python3 libsvm/libsvm.py data/mnist_100.csv data/mnist_100.txt `
 
 To run a Multilayered Perceptron with Active Learning run the following. For specific sampling strategies and other model configurations, check the model file. 
 
-` python3 models/mlp_active_learning.py data/mnist_full.txt 0.3 1500 500`
+` python3 models/mlp_active_learning.py data/mnist_100.txt 0.3 1500 500`
 
 The models have Uncertainty sampling strategy set as default. Refer to `libact` library for more details. 
