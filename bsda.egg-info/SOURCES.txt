@@ -1,0 +1,7 @@
+README.md
+setup.py
+bsda/__init__.py
+bsda.egg-info/PKG-INFO
+bsda.egg-info/SOURCES.txt
+bsda.egg-info/dependency_links.txt
+bsda.egg-info/top_level.txt
