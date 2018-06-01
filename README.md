@@ -32,7 +32,7 @@ We have combied all the models into one script `bsda.py`. Just run the script wi
 
 The results will be displayed in the termianl along with the standard deviation of accuracy over total querying budget. Currently the tests run over MLP and SVM models. The models have Uncertainty sampling strategy set as default. Refer to `libact` library for more details. 
 
-## Citing
+## References
 
 These experiments are based on the Active Learning Library `libact` from: 
 
